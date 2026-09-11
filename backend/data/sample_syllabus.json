@@ -1,0 +1,173 @@
+{
+  "subjects": [
+    {
+      "name": "Java & OOP",
+      "topics": [
+        {
+          "id": "java-basics",
+          "name": "Java Syntax & Primitive Types",
+          "difficulty": "easy",
+          "estimated_hours": 2.0,
+          "prerequisites": [],
+          "unit": "Unit 1: Fundamentals",
+          "completed": false
+        },
+        {
+          "id": "java-oop",
+          "name": "Classes, Objects & Encapsulation",
+          "difficulty": "medium",
+          "estimated_hours": 3.0,
+          "prerequisites": ["java-basics"],
+          "unit": "Unit 1: Fundamentals",
+          "completed": false
+        },
+        {
+          "id": "java-inheritance",
+          "name": "Inheritance & Polymorphism",
+          "difficulty": "medium",
+          "estimated_hours": 3.0,
+          "prerequisites": ["java-oop"],
+          "unit": "Unit 2: OOP Principles",
+          "completed": false
+        },
+        {
+          "id": "java-interfaces",
+          "name": "Abstract Classes & Interfaces",
+          "difficulty": "medium",
+          "estimated_hours": 2.0,
+          "prerequisites": ["java-inheritance"],
+          "unit": "Unit 2: OOP Principles",
+          "completed": false
+        },
+        {
+          "id": "java-generics",
+          "name": "Generics & Collections Framework",
+          "difficulty": "hard",
+          "estimated_hours": 4.0,
+          "prerequisites": ["java-interfaces"],
+          "unit": "Unit 3: Advanced Java",
+          "completed": false
+        },
+        {
+          "id": "java-streams",
+          "name": "Functional Programming & Stream API",
+          "difficulty": "hard",
+          "estimated_hours": 3.0,
+          "prerequisites": ["java-generics"],
+          "unit": "Unit 3: Advanced Java",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "topics": [
+        {
+          "id": "dsa-arrays",
+          "name": "Arrays & Dynamic Arrays",
+          "difficulty": "easy",
+          "estimated_hours": 2.0,
+          "prerequisites": ["java-basics"],
+          "unit": "Unit 1: Linear Structures",
+          "completed": false
+        },
+        {
+          "id": "dsa-linked-lists",
+          "name": "Singly & Doubly Linked Lists",
+          "difficulty": "medium",
+          "estimated_hours": 3.0,
+          "prerequisites": ["dsa-arrays"],
+          "unit": "Unit 1: Linear Structures",
+          "completed": false
+        },
+        {
+          "id": "dsa-stacks-queues",
+          "name": "Stacks, Queues & Ring Buffers",
+          "difficulty": "medium",
+          "estimated_hours": 2.5,
+          "prerequisites": ["dsa-linked-lists"],
+          "unit": "Unit 1: Linear Structures",
+          "completed": false
+        },
+        {
+          "id": "dsa-trees",
+          "name": "Binary Search Trees & Traversal",
+          "difficulty": "hard",
+          "estimated_hours": 4.0,
+          "prerequisites": ["dsa-stacks-queues"],
+          "unit": "Unit 2: Non-Linear Structures",
+          "completed": false
+        },
+        {
+          "id": "dsa-graphs",
+          "name": "Graph Representations & BFS / DFS",
+          "difficulty": "hard",
+          "estimated_hours": 4.5,
+          "prerequisites": ["dsa-trees"],
+          "unit": "Unit 2: Non-Linear Structures",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "name": "Web Engineering & APIs",
+      "topics": [
+        {
+          "id": "web-http",
+          "name": "HTTP Protocols, REST Architecture & JSON",
+          "difficulty": "easy",
+          "estimated_hours": 2.0,
+          "prerequisites": [],
+          "unit": "Unit 1: Web Fundamentals",
+          "completed": false
+        },
+        {
+          "id": "web-spring-core",
+          "name": "Spring Boot Core & Dependency Injection",
+          "difficulty": "medium",
+          "estimated_hours": 3.5,
+          "prerequisites": ["java-interfaces", "web-http"],
+          "unit": "Unit 2: Backend Frameworks",
+          "completed": false
+        },
+        {
+          "id": "web-spring-rest",
+          "name": "Building REST Controllers & DTOs",
+          "difficulty": "medium",
+          "estimated_hours": 3.0,
+          "prerequisites": ["web-spring-core"],
+          "unit": "Unit 2: Backend Frameworks",
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "exam_dates": [
+    {
+      "subject": "Java & OOP",
+      "exam_date": "2026-10-15"
+    },
+    {
+      "subject": "Data Structures & Algorithms",
+      "exam_date": "2026-10-22"
+    },
+    {
+      "subject": "Web Engineering & APIs",
+      "exam_date": "2026-10-29"
+    }
+  ],
+  "coursework_deadlines": [
+    {
+      "title": "Java Banking Application",
+      "subject": "Java & OOP",
+      "deadline_date": "2026-10-05",
+      "estimated_hours": 4.0
+    },
+    {
+      "title": "Pathfinding Maze Lab",
+      "subject": "Data Structures & Algorithms",
+      "deadline_date": "2026-10-18",
+      "estimated_hours": 3.5
+    }
+  ]
+}

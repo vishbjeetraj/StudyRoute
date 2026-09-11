@@ -1,0 +1,101 @@
+{
+  "id": "plan-demo-001",
+  "created_at": "2026-09-11T12:00:00Z",
+  "start_date": "2026-09-12",
+  "end_date": "2026-10-10",
+  "total_hours": 37.5,
+  "total_sessions": 25,
+  "constraints": {
+    "available_daily_hours": 3.0,
+    "preferred_time": "afternoon",
+    "start_date": "2026-09-12",
+    "rest_days": [6],
+    "max_session_minutes": 90
+  },
+  "is_feasible": true,
+  "feasibility_message": "Plan is balanced. All topics finish 5 days before earliest exam deadline.",
+  "sessions": [
+    {
+      "id": "sess-01",
+      "subject": "Java & OOP",
+      "topic_id": "java-basics",
+      "topic_name": "Java Syntax & Primitive Types (Part 1)",
+      "date": "2026-09-12",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "duration_minutes": 60,
+      "difficulty": "easy",
+      "status": "completed",
+      "session_type": "study",
+      "actual_minutes_spent": 60,
+      "notes": "Completed initial syntax exercises"
+    },
+    {
+      "id": "sess-02",
+      "subject": "Java & OOP",
+      "topic_id": "java-basics",
+      "topic_name": "Java Syntax & Primitive Types (Part 2)",
+      "date": "2026-09-12",
+      "start_time": "15:15",
+      "end_time": "16:15",
+      "duration_minutes": 60,
+      "difficulty": "easy",
+      "status": "completed",
+      "session_type": "study",
+      "actual_minutes_spent": 55,
+      "notes": "Finished primitives & operators"
+    },
+    {
+      "id": "sess-03",
+      "subject": "Web Engineering & APIs",
+      "topic_id": "web-http",
+      "topic_name": "HTTP Protocols, REST Architecture & JSON",
+      "date": "2026-09-12",
+      "start_time": "16:30",
+      "end_time": "18:00",
+      "duration_minutes": 90,
+      "difficulty": "easy",
+      "status": "upcoming",
+      "session_type": "study"
+    },
+    {
+      "id": "sess-04",
+      "subject": "Java & OOP",
+      "topic_id": "java-oop",
+      "topic_name": "Classes, Objects & Encapsulation (Part 1)",
+      "date": "2026-09-14",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "duration_minutes": 90,
+      "difficulty": "medium",
+      "status": "upcoming",
+      "session_type": "study"
+    },
+    {
+      "id": "sess-05",
+      "subject": "Java & OOP",
+      "topic_id": "java-oop",
+      "topic_name": "Classes, Objects & Encapsulation (Part 2)",
+      "date": "2026-09-14",
+      "start_time": "15:45",
+      "end_time": "17:15",
+      "duration_minutes": 90,
+      "difficulty": "medium",
+      "status": "upcoming",
+      "session_type": "study"
+    },
+    {
+      "id": "sess-06",
+      "subject": "Data Structures & Algorithms",
+      "topic_id": "dsa-arrays",
+      "topic_name": "Arrays & Dynamic Arrays",
+      "date": "2026-09-15",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "duration_minutes": 120,
+      "difficulty": "easy",
+      "status": "upcoming",
+      "session_type": "study"
+    }
+  ]
+}
